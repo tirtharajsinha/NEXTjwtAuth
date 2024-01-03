@@ -8,6 +8,10 @@ import { store } from "@/redux/store";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>NextJwtAuth</title>
+        <link rel="icon" href="logo.svg" />
+      </head>
       <body>
         <Provider store={store}>
           <Nav />
